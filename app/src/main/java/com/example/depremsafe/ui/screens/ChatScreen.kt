@@ -1,6 +1,9 @@
 package com.example.depremsafe.ui.screens
 
+import android.Manifest
 import android.util.Log
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -26,14 +29,43 @@ import kotlinx.coroutines.launch
 fun ChatScreen(
     isSafe: Boolean,
     onBackClick: () -> Unit,
-    viewModel: ChatViewModel = viewModel()  // ← Sıra düzeltildi
+    viewModel: ChatViewModel = viewModel()
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val listState = rememberLazyListState()
     val coroutineScope = rememberCoroutineScope()
 
-    // ÖNEMLİ: Chat'i başlat!
-    LaunchedEffect(Unit) {  // ← BU EKSİKTİ!
+    // Konum izni launcher'ı
+    val locationPermissionLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.RequestMultiplePermissions()
+    ) { permissions ->
+        val granted = permissions[Manifest.permission.ACCESS_FINE_LOCATION] == true ||
+                permissions[Manifest.permission.ACCESS_COARSE_LOCATION] == true
+
+        if (granted) {
+            Log.d("ChatScreen", "Konum izni verildi")
+            viewModel.onLocationPermissionGranted()
+        } else {
+            Log.d("ChatScreen", "Konum izni reddedildi")
+            viewModel.onLocationPermissionDenied()
+        }
+    }
+
+    // Konum izni gerektiğinde launcher'ı tetikle
+    LaunchedEffect(uiState.locationPermissionRequired) {
+        if (uiState.locationPermissionRequired) {
+            Log.d("ChatScreen", "Konum izni isteniyor")
+            locationPermissionLauncher.launch(
+                arrayOf(
+                    Manifest.permission.ACCESS_FINE_LOCATION,
+                    Manifest.permission.ACCESS_COARSE_LOCATION
+                )
+            )
+        }
+    }
+
+    // Chat'i başlat
+    LaunchedEffect(Unit) {
         if (!uiState.conversationStarted) {
             Log.d("ChatScreen", "Chat başlatılıyor, isSafe: $isSafe")
             viewModel.startConversation(isSafe)
@@ -78,14 +110,29 @@ fun ChatScreen(
                     MessageBubble(message)
                 }
 
-                if (uiState.isLoading) {
+                // Loading indicator - Hem chat hem konum için
+                if (uiState.isLoading || uiState.isLoadingLocation) {
                     item {
-                        CircularProgressIndicator(modifier = Modifier.padding(16.dp).size(24.dp))
+                        Column(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalAlignment = Alignment.CenterHorizontally
+                        ) {
+                            CircularProgressIndicator(
+                                modifier = Modifier.padding(16.dp).size(24.dp)
+                            )
+                            if (uiState.isLoadingLocation) {
+                                Text(
+                                    text = "Konumunuz alınıyor...",
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                                )
+                            }
+                        }
                     }
                 }
             }
 
-            if (uiState.showYesNoButtons && !uiState.isLoading) {
+            if (uiState.showYesNoButtons && !uiState.isLoading && !uiState.isLoadingLocation) {
                 YesNoButtons(
                     onYesClick = { viewModel.sendResponse(true) },
                     onNoClick = { viewModel.sendResponse(false) }
@@ -96,7 +143,6 @@ fun ChatScreen(
                 ErrorMessage(
                     error = uiState.error!!,
                     onRetry = {
-                        // Son kullanıcı mesajına göre retry
                         val lastUserMessage = uiState.messages.lastOrNull { it.isUser }
                         if (lastUserMessage != null) {
                             val isPositive = lastUserMessage.text == "Evet, iyiyim"
@@ -152,12 +198,11 @@ fun YesNoButtons(onYesClick: () -> Unit, onNoClick: () -> Unit) {
                 .padding(16.dp),
             horizontalArrangement = Arrangement.spacedBy(12.dp)
         ) {
-            // Pozitif Buton - Yeşil & Rahatlatıcı
             Button(
                 onClick = onYesClick,
                 modifier = Modifier.weight(1f),
                 colors = ButtonDefaults.buttonColors(
-                    containerColor = Color(0xFF4CAF50) // Yeşil
+                    containerColor = Color(0xFF4CAF50)
                 ),
                 shape = RoundedCornerShape(12.dp)
             ) {
@@ -178,12 +223,11 @@ fun YesNoButtons(onYesClick: () -> Unit, onNoClick: () -> Unit) {
                 }
             }
 
-            // Negatif Buton - Turuncu & Dikkat Çekici
             Button(
                 onClick = onNoClick,
                 modifier = Modifier.weight(1f),
                 colors = ButtonDefaults.buttonColors(
-                    containerColor = Color(0xFFFF9800) // Turuncu
+                    containerColor = Color(0xFFFF9800)
                 ),
                 shape = RoundedCornerShape(12.dp)
             ) {

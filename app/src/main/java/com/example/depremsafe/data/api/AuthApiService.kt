@@ -2,8 +2,10 @@ package com.example.depremsafe.data.api
 
 import com.example.depremsafe.data.model.GoogleLoginRequest
 import com.example.depremsafe.data.model.GoogleLoginResponse
+import com.example.depremsafe.data.model.SafetyStatusRequest
 import com.example.depremsafe.data.model.UpdateCityRequest
 import com.example.depremsafe.data.model.UpdateCityResponse
+import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.Header
 import retrofit2.http.POST
@@ -17,4 +19,9 @@ interface AuthApiService {
         @Header("Authorization") token: String,
         @Body request: UpdateCityRequest
     ): UpdateCityResponse
+    @POST("api/user/safety-status")
+    suspend fun reportSafetyStatus(
+        @Header("Authorization") token: String,
+        @Body request: SafetyStatusRequest
+    ): Response<Unit>
 }
