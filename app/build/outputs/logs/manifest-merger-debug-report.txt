@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:2:1-33:12
 MERGED from [androidx.navigation:navigation-common:2.7.5] C:\Users\CASPER\.gradle\caches\transforms-3\8a7a9056e856c825cf4ec79d548073ef\transformed\navigation-common-2.7.5\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.7.5] C:\Users\CASPER\.gradle\caches\transforms-3\d674331a1d6f331b2706822bddcdafab\transformed\navigation-runtime-2.7.5\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.5] C:\Users\CASPER\.gradle\caches\transforms-3\4619b696e299731f013840db8c728d82\transformed\navigation-common-ktx-2.7.5\AndroidManifest.xml:2:1-7:12
@@ -14,6 +14,7 @@ MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.1] C:\U
 MERGED from [androidx.credentials:credentials:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\ec50f3d6f4b072ee564757dbbf251af8\transformed\credentials-1.3.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\8cca46200bb55ed4c8a1123f0ff44551\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\2ecf147c9f42ca3e2676b1d404c442e5\transformed\play-services-auth-21.1.1\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-location:21.1.0] C:\Users\CASPER\.gradle\caches\transforms-3\a81ba25d57b7d36ccd7603bbb749032f\transformed\play-services-location-21.1.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\CASPER\.gradle\caches\transforms-3\3ce8345f5587ab141161378deda35591\transformed\play-services-fido-21.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\CASPER\.gradle\caches\transforms-3\2a7771f97145fb0c15c8e8b7b0d7841d\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] C:\Users\CASPER\.gradle\caches\transforms-3\6a161f60da0c3740cc89be5144dd8d20\transformed\play-services-auth-base-18.0.10\AndroidManifest.xml:2:1-7:12
@@ -93,13 +94,23 @@ uses-permission#android.permission.GET_ACCOUNTS
 ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:7:5-71
 	android:name
 		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:7:22-68
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:9:22-78
 application
-ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:9:5-29:19
-INJECTED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:9:5-29:19
+ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:11:5-31:19
+INJECTED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:11:5-31:19
 MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\8cca46200bb55ed4c8a1123f0ff44551\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:23:5-42:19
 MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\8cca46200bb55ed4c8a1123f0ff44551\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:23:5-42:19
 MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\2ecf147c9f42ca3e2676b1d404c442e5\transformed\play-services-auth-21.1.1\AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\2ecf147c9f42ca3e2676b1d404c442e5\transformed\play-services-auth-21.1.1\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-location:21.1.0] C:\Users\CASPER\.gradle\caches\transforms-3\a81ba25d57b7d36ccd7603bbb749032f\transformed\play-services-location-21.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.1.0] C:\Users\CASPER\.gradle\caches\transforms-3\a81ba25d57b7d36ccd7603bbb749032f\transformed\play-services-location-21.1.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\CASPER\.gradle\caches\transforms-3\3ce8345f5587ab141161378deda35591\transformed\play-services-fido-21.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\CASPER\.gradle\caches\transforms-3\3ce8345f5587ab141161378deda35591\transformed\play-services-fido-21.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\eb377f2e2262ea87e1fc3df6e7802de8\transformed\play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
@@ -129,43 +140,43 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CASPER\.gradle\cac
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\CASPER\.gradle\caches\transforms-3\2ccd268e0ca2e1cd10ec650ac8067a3e\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:16:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:14:9-54
 	tools:targetApi
-		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:19:9-29
+		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:21:9-29
 	android:icon
-		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:13:9-58
+		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:15:9-58
 	android:allowBackup
-		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:17:9-48
+		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:19:9-48
 	android:networkSecurityConfig
-		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:16:9-69
+		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:18:9-69
 	android:dataExtractionRules
-		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:11:9-65
+		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:13:9-65
 	android:usesCleartextTraffic
-		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:18:9-44
+		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:20:9-44
 activity#com.example.depremsafe.MainActivity
-ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:20:9-28:20
+ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:22:9-30:20
 	android:exported
-		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:22:13-36
+		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:24:13-36
 	android:theme
-		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:23:13-52
+		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:25:13-52
 	android:name
-		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:21:13-41
+		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:23:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:24:13-27:29
+ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:26:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:28:27-74
 uses-sdk
 INJECTED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml
@@ -190,6 +201,8 @@ MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users
 MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\8cca46200bb55ed4c8a1123f0ff44551\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:21:5-44
 MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\2ecf147c9f42ca3e2676b1d404c442e5\transformed\play-services-auth-21.1.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\2ecf147c9f42ca3e2676b1d404c442e5\transformed\play-services-auth-21.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:21.1.0] C:\Users\CASPER\.gradle\caches\transforms-3\a81ba25d57b7d36ccd7603bbb749032f\transformed\play-services-location-21.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.1.0] C:\Users\CASPER\.gradle\caches\transforms-3\a81ba25d57b7d36ccd7603bbb749032f\transformed\play-services-location-21.1.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\CASPER\.gradle\caches\transforms-3\3ce8345f5587ab141161378deda35591\transformed\play-services-fido-21.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-fido:21.0.0] C:\Users\CASPER\.gradle\caches\transforms-3\3ce8345f5587ab141161378deda35591\transformed\play-services-fido-21.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\CASPER\.gradle\caches\transforms-3\2a7771f97145fb0c15c8e8b7b0d7841d\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44

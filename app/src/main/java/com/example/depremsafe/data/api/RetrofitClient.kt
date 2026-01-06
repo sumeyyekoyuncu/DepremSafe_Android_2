@@ -7,7 +7,13 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 object RetrofitClient {
-    private const val BASE_URL = "http://10.0.2.2:7261/"  // Emulator için
+    // İki URL'i de tanımlayın
+    private const val EMULATOR_BASE_URL = "http://10.0.2.2:7261/"
+    private const val DEVICE_BASE_URL = "http://172.20.10.9:7261/"
+
+    // Hangisini kullanacağınızı buradan seçin:
+    private const val BASE_URL = DEVICE_BASE_URL  // Telefon için
+    // private const val BASE_URL = EMULATOR_BASE_URL  // Emülatör için
 
     private val loggingInterceptor = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BODY
