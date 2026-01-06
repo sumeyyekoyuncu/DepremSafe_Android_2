@@ -73,6 +73,7 @@
     <string msgid="6827826412747255547" name="in_progress">"In Bearbeitung"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Teilweise aktiviert"</string>
     <string msgid="542007171693138492" name="navigation_menu">"Navigationsmenü"</string>
+    <string name="nearby_device_type_tablet">Tablet</string>
     <string msgid="6610465462668679431" name="not_selected">"Nicht ausgewählt"</string>
     <string msgid="875452955155264703" name="off">"Aus"</string>
     <string msgid="8655164131929253426" name="on">"An"</string>

@@ -9,9 +9,9 @@ import java.util.concurrent.TimeUnit
 object RetrofitClient {
     // İki URL'i de tanımlayın
     private const val EMULATOR_BASE_URL = "http://10.0.2.2:7261/"
-    private const val DEVICE_BASE_URL = "http://172.20.10.9:7261/"
+    private const val DEVICE_BASE_URL = "http://172.20.10.9:7261/"  // ← Sizin IP
 
-    // Hangisini kullanacağınızı buradan seçin:
+    // ✅ FİZİKSEL TELEFON İÇİN AKTİF:
     private const val BASE_URL = DEVICE_BASE_URL  // Telefon için
     // private const val BASE_URL = EMULATOR_BASE_URL  // Emülatör için
 

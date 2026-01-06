@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.depremsafe.app-mergeDebugResources-63:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.example.depremsafe.app-mergeDebugResources-64:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "C:\\Users\\CASPER\\.gradle\\caches\\transforms-3\\85308e0b7a6e6add749f215e4ddcdf48\\transformed\\ui-release\\res\\values-en-rXC\\values-en-rXC.xml",

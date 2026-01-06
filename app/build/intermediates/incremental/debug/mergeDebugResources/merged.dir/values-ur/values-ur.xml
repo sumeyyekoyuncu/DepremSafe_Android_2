@@ -73,6 +73,7 @@
     <string msgid="6827826412747255547" name="in_progress">"پیشرفت میں"</string>
     <string msgid="7933458017204019916" name="indeterminate">"جزوی طور پر چیک کردہ"</string>
     <string msgid="542007171693138492" name="navigation_menu">"نیویگیشن مینیو"</string>
+    <string name="nearby_device_type_tablet">ٹیبلیٹ</string>
     <string msgid="6610465462668679431" name="not_selected">"غیر منتخب کردہ"</string>
     <string msgid="875452955155264703" name="off">"آف ہے"</string>
     <string msgid="8655164131929253426" name="on">"آن ہے"</string>

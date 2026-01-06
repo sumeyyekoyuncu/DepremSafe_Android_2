@@ -10,6 +10,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
+import android.util.Log
 
 data class Message(
     val text: String,
@@ -40,33 +41,56 @@ class ChatViewModel(application: Application) : AndroidViewModel(application) {
 
     fun startConversation(isSafe: Boolean) {
         viewModelScope.launch {
+            Log.d("ChatViewModel", "🚀 startConversation başladı: isSafe=$isSafe")
+
+            _uiState.value = _uiState.value.copy(
+                conversationStarted = true
+            )
+
+            // 1. Konum işlemi (sadece unsafe için)
             if (!isSafe) {
                 if (!locationManager.hasLocationPermission()) {
+                    Log.d("ChatViewModel", "❌ Konum izni yok")
                     _uiState.value = _uiState.value.copy(
                         locationPermissionRequired = true
                     )
                     return@launch
                 }
 
+                Log.d("ChatViewModel", "📍 Konum alınıyor...")
                 _uiState.value = _uiState.value.copy(
-                    isLoadingLocation = true,
-                    conversationStarted = true
+                    isLoadingLocation = true
                 )
 
-                val location = locationManager.getCurrentLocation()
-                sendSafetyStatusWithLocation(isSafe, location)
-            } else {
-                sendSafetyStatusWithLocation(isSafe, null)
+                try {
+                    val location = locationManager.getCurrentLocation()
+                    Log.d("ChatViewModel", "✅ Konum alındı: ${location?.latitude}, ${location?.longitude}")
+
+                    _uiState.value = _uiState.value.copy(
+                        isLoadingLocation = false
+                    )
+
+                    // Konum gönderimi PARALEL (chat'i bloklamaz)
+                    viewModelScope.launch {
+                        sendLocationInBackground(isSafe, location)
+                    }
+                } catch (e: Exception) {
+                    Log.e("ChatViewModel", "❌ Konum hatası: ${e.message}")
+                    _uiState.value = _uiState.value.copy(
+                        isLoadingLocation = false
+                    )
+                }
             }
 
+            // 2. Chat başlat (KONUM BEKLENMİYOR!)
+            Log.d("ChatViewModel", "💬 Chat API çağrılıyor...")
             _uiState.value = _uiState.value.copy(
-                isLoading = true,
-                isLoadingLocation = false,
-                conversationStarted = true
+                isLoading = true
             )
 
             repository.startConversation(isSafe, userId).fold(
                 onSuccess = { response ->
+                    Log.d("ChatViewModel", "✅ Chat başarılı: ${response.message}")
                     _uiState.value = _uiState.value.copy(
                         messages = listOf(Message(response.message, false)),
                         isLoading = false,
@@ -76,6 +100,7 @@ class ChatViewModel(application: Application) : AndroidViewModel(application) {
                     )
                 },
                 onFailure = { error ->
+                    Log.e("ChatViewModel", "❌ Chat hatası: ${error.message}")
                     _uiState.value = _uiState.value.copy(
                         isLoading = false,
                         error = error.message ?: "Bilinmeyen hata",
@@ -86,28 +111,36 @@ class ChatViewModel(application: Application) : AndroidViewModel(application) {
         }
     }
 
-    private suspend fun sendSafetyStatusWithLocation(isSafe: Boolean, location: LocationData?) {
+    private suspend fun sendLocationInBackground(isSafe: Boolean, location: LocationData?) {
         try {
-            repository.reportSafetyStatus(userId, isSafe, location).fold(
+            Log.d("ChatViewModel", "📤 Konum backend'e gönderiliyor...")
+            Log.d("ChatViewModel", "📍 Location data: $location")
+            Log.d("ChatViewModel", "📍 UserId: $userId")
+
+            val result = repository.reportSafetyStatus(userId, isSafe, location)
+
+            Log.d("ChatViewModel", "📦 Result: $result")
+
+            result.fold(
                 onSuccess = {
-                    android.util.Log.d("ChatViewModel", "Güvenlik durumu başarıyla gönderildi")
+                    Log.d("ChatViewModel", "✅ Konum başarıyla gönderildi")
                 },
                 onFailure = { error ->
-                    _uiState.value = _uiState.value.copy(
-                        error = "Konum bilgisi gönderilemedi: ${error.message}"
-                    )
+                    Log.e("ChatViewModel", "❌ Konum gönderilemedi: ${error.message}")
+                    Log.e("ChatViewModel", "❌ Stack:", error)
                 }
             )
         } catch (e: Exception) {
-            _uiState.value = _uiState.value.copy(
-                error = "Konum bilgisi gönderilemedi: ${e.message}"
-            )
+            Log.e("ChatViewModel", "❌ Konum exception: ${e.message}")
+            Log.e("ChatViewModel", "❌ Stack trace:", e)
+            e.printStackTrace()
         }
     }
 
     fun sendResponse(isPositive: Boolean) {
         viewModelScope.launch {
             val userMessage = if (isPositive) "Evet" else "Hayır"
+
             _uiState.value = _uiState.value.copy(
                 messages = _uiState.value.messages + Message(userMessage, true),
                 isLoading = true,
@@ -136,6 +169,7 @@ class ChatViewModel(application: Application) : AndroidViewModel(application) {
     }
 
     fun onLocationPermissionGranted() {
+        Log.d("ChatViewModel", "✅ İzin verildi, chat tekrar başlatılıyor")
         _uiState.value = _uiState.value.copy(
             locationPermissionRequired = false
         )
@@ -143,10 +177,12 @@ class ChatViewModel(application: Application) : AndroidViewModel(application) {
     }
 
     fun onLocationPermissionDenied() {
+        Log.d("ChatViewModel", "❌ İzin reddedildi, konum olmadan devam")
         _uiState.value = _uiState.value.copy(
-            locationPermissionRequired = false,
-            error = "Konum izni olmadan acil durum durumunuz tam olarak gönderilemez."
+            locationPermissionRequired = false
         )
+
+        // Konum olmadan chat başlat
         viewModelScope.launch {
             _uiState.value = _uiState.value.copy(
                 isLoading = true,
@@ -159,7 +195,8 @@ class ChatViewModel(application: Application) : AndroidViewModel(application) {
                         messages = listOf(Message(response.message, false)),
                         isLoading = false,
                         conversationId = response.conversationId,
-                        showYesNoButtons = true
+                        showYesNoButtons = true,
+                        error = null
                     )
                 },
                 onFailure = { error ->

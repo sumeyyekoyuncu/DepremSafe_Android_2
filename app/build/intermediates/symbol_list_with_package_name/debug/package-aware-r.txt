@@ -331,6 +331,7 @@ string in_progress
 string indeterminate
 string m3c_bottom_sheet_pane_title
 string navigation_menu
+string nearby_device_type_tablet
 string not_selected
 string off
 string on

@@ -196,6 +196,7 @@
     <string name="indeterminate">Partially checked</string>
     <string name="m3c_bottom_sheet_pane_title">Bottom Sheet</string>
     <string name="navigation_menu">"Navigation menu"</string>
+    <string name="nearby_device_type_tablet">tablet</string>
     <string name="not_selected">Not selected</string>
     <string name="off">Off</string>
     <string name="on">On</string>

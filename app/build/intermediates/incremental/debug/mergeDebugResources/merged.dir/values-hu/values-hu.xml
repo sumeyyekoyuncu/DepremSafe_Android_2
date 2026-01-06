@@ -73,6 +73,7 @@
     <string msgid="6827826412747255547" name="in_progress">"Folyamatban"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Részlegesen ellenőrizve"</string>
     <string msgid="542007171693138492" name="navigation_menu">"Navigációs menü"</string>
+    <string name="nearby_device_type_tablet">táblagép</string>
     <string msgid="6610465462668679431" name="not_selected">"Nincs kijelölve"</string>
     <string msgid="875452955155264703" name="off">"Ki"</string>
     <string msgid="8655164131929253426" name="on">"Be"</string>

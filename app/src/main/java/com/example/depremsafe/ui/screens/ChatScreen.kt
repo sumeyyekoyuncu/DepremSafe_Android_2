@@ -39,8 +39,9 @@ fun ChatScreen(
     val locationPermissionLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.RequestMultiplePermissions()
     ) { permissions ->
-        val granted = permissions[Manifest.permission.ACCESS_FINE_LOCATION] == true ||
-                permissions[Manifest.permission.ACCESS_COARSE_LOCATION] == true
+        val granted =
+            permissions[Manifest.permission.ACCESS_FINE_LOCATION] == true ||
+                    permissions[Manifest.permission.ACCESS_COARSE_LOCATION] == true
 
         if (granted) {
             Log.d("ChatScreen", "Konum izni verildi")
@@ -84,25 +85,36 @@ fun ChatScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(if (isSafe) "Güvendesiniz" else "Acil Yardım") },
+                title = {
+                    Text(if (isSafe) "Güvendesiniz" else "Acil Yardım")
+                },
                 navigationIcon = {
                     IconButton(onClick = onBackClick) {
                         Icon(Icons.Default.ArrowBack, contentDescription = "Geri")
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = if (isSafe)
-                        MaterialTheme.colorScheme.primaryContainer
-                    else
-                        MaterialTheme.colorScheme.errorContainer
+                    containerColor =
+                        if (isSafe)
+                            MaterialTheme.colorScheme.primaryContainer
+                        else
+                            MaterialTheme.colorScheme.errorContainer
                 )
             )
         }
     ) { paddingValues ->
-        Column(modifier = Modifier.fillMaxSize().padding(paddingValues)) {
+
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(paddingValues)
+        ) {
+
             LazyColumn(
                 state = listState,
-                modifier = Modifier.weight(1f).fillMaxWidth(),
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxWidth(),
                 contentPadding = PaddingValues(16.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
@@ -118,8 +130,11 @@ fun ChatScreen(
                             horizontalAlignment = Alignment.CenterHorizontally
                         ) {
                             CircularProgressIndicator(
-                                modifier = Modifier.padding(16.dp).size(24.dp)
+                                modifier = Modifier
+                                    .padding(16.dp)
+                                    .size(24.dp)
                             )
+
                             if (uiState.isLoadingLocation) {
                                 Text(
                                     text = "Konumunuz alınıyor...",
@@ -132,7 +147,11 @@ fun ChatScreen(
                 }
             }
 
-            if (uiState.showYesNoButtons && !uiState.isLoading && !uiState.isLoadingLocation) {
+            if (
+                uiState.showYesNoButtons &&
+                !uiState.isLoading &&
+                !uiState.isLoadingLocation
+            ) {
                 YesNoButtons(
                     onYesClick = { viewModel.sendResponse(true) },
                     onNoClick = { viewModel.sendResponse(false) }
@@ -143,9 +162,12 @@ fun ChatScreen(
                 ErrorMessage(
                     error = uiState.error!!,
                     onRetry = {
-                        val lastUserMessage = uiState.messages.lastOrNull { it.isUser }
+                        val lastUserMessage =
+                            uiState.messages.lastOrNull { it.isUser }
+
                         if (lastUserMessage != null) {
-                            val isPositive = lastUserMessage.text == "Evet, iyiyim"
+                            val isPositive =
+                                lastUserMessage.text == "Evet, iyiyim"
                             viewModel.sendResponse(isPositive)
                         }
                     }
@@ -159,7 +181,8 @@ fun ChatScreen(
 fun MessageBubble(message: Message) {
     Row(
         modifier = Modifier.fillMaxWidth(),
-        horizontalArrangement = if (message.isUser) Arrangement.End else Arrangement.Start
+        horizontalArrangement =
+            if (message.isUser) Arrangement.End else Arrangement.Start
     ) {
         Surface(
             shape = RoundedCornerShape(
@@ -168,26 +191,31 @@ fun MessageBubble(message: Message) {
                 bottomStart = if (message.isUser) 16.dp else 4.dp,
                 bottomEnd = if (message.isUser) 4.dp else 16.dp
             ),
-            color = if (message.isUser)
-                MaterialTheme.colorScheme.primaryContainer
-            else
-                MaterialTheme.colorScheme.secondaryContainer,
+            color =
+                if (message.isUser)
+                    MaterialTheme.colorScheme.primaryContainer
+                else
+                    MaterialTheme.colorScheme.secondaryContainer,
             modifier = Modifier.widthIn(max = 280.dp)
         ) {
             Text(
                 text = message.text,
                 modifier = Modifier.padding(12.dp),
-                color = if (message.isUser)
-                    MaterialTheme.colorScheme.onPrimaryContainer
-                else
-                    MaterialTheme.colorScheme.onSecondaryContainer
+                color =
+                    if (message.isUser)
+                        MaterialTheme.colorScheme.onPrimaryContainer
+                    else
+                        MaterialTheme.colorScheme.onSecondaryContainer
             )
         }
     }
 }
 
 @Composable
-fun YesNoButtons(onYesClick: () -> Unit, onNoClick: () -> Unit) {
+fun YesNoButtons(
+    onYesClick: () -> Unit,
+    onNoClick: () -> Unit
+) {
     Surface(
         shadowElevation = 8.dp,
         color = MaterialTheme.colorScheme.surface
@@ -210,16 +238,9 @@ fun YesNoButtons(onYesClick: () -> Unit, onNoClick: () -> Unit) {
                     horizontalAlignment = Alignment.CenterHorizontally,
                     verticalArrangement = Arrangement.Center
                 ) {
-                    Text(
-                        text = "✓",
-                        fontSize = 20.sp,
-                        fontWeight = FontWeight.Bold
-                    )
+                    Text("✓", fontSize = 20.sp, fontWeight = FontWeight.Bold)
                     Spacer(modifier = Modifier.height(4.dp))
-                    Text(
-                        text = "Evet, iyiyim",
-                        fontSize = 14.sp
-                    )
+                    Text("Evet, iyiyim", fontSize = 14.sp)
                 }
             }
 
@@ -235,16 +256,9 @@ fun YesNoButtons(onYesClick: () -> Unit, onNoClick: () -> Unit) {
                     horizontalAlignment = Alignment.CenterHorizontally,
                     verticalArrangement = Arrangement.Center
                 ) {
-                    Text(
-                        text = "⚠",
-                        fontSize = 20.sp,
-                        fontWeight = FontWeight.Bold
-                    )
+                    Text("⚠", fontSize = 20.sp, fontWeight = FontWeight.Bold)
                     Spacer(modifier = Modifier.height(4.dp))
-                    Text(
-                        text = "Hayır, sorun var",
-                        fontSize = 14.sp
-                    )
+                    Text("Hayır, sorun var", fontSize = 14.sp)
                 }
             }
         }
@@ -252,14 +266,23 @@ fun YesNoButtons(onYesClick: () -> Unit, onNoClick: () -> Unit) {
 }
 
 @Composable
-fun ErrorMessage(error: String, onRetry: () -> Unit) {
-    Surface(color = MaterialTheme.colorScheme.errorContainer, modifier = Modifier.fillMaxWidth()) {
+fun ErrorMessage(
+    error: String,
+    onRetry: () -> Unit
+) {
+    Surface(
+        color = MaterialTheme.colorScheme.errorContainer,
+        modifier = Modifier.fillMaxWidth()
+    ) {
         Row(
             modifier = Modifier.padding(16.dp),
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Text("Hata: $error", modifier = Modifier.weight(1f))
+            Text(
+                text = "Hata: $error",
+                modifier = Modifier.weight(1f)
+            )
             TextButton(onClick = onRetry) {
                 Text("Tekrar Dene")
             }

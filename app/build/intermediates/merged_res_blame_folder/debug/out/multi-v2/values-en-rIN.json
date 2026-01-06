@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.depremsafe.app-mergeDebugResources-63:/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "com.example.depremsafe.app-mergeDebugResources-64:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\CASPER\\.gradle\\caches\\transforms-3\\69bb72b54bc9f1b2bc2b385780b0fe02\\transformed\\credentials-1.3.0\\res\\values-en-rIN\\values-en-rIN.xml",

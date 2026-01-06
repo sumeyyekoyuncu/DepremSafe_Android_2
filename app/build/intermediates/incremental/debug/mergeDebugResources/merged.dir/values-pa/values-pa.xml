@@ -73,6 +73,7 @@
     <string msgid="6827826412747255547" name="in_progress">"ਜਾਰੀ ਹੈ"</string>
     <string msgid="7933458017204019916" name="indeterminate">"ਅੰਸ਼ਕ ਤੌਰ ਤੇ ਜਾਂਚ ਕੀਤੀ ਗਈ"</string>
     <string msgid="542007171693138492" name="navigation_menu">"ਨੈਵੀਗੇਸ਼ਨ ਮੀਨੂ"</string>
+    <string name="nearby_device_type_tablet">ਟੈਬਲੈੱਟ</string>
     <string msgid="6610465462668679431" name="not_selected">"ਚੁਣੀ ਨਹੀਂ ਗਈ"</string>
     <string msgid="875452955155264703" name="off">"ਬੰਦ ਹੈ"</string>
     <string msgid="8655164131929253426" name="on">"ਚਾਲੂ ਹੈ"</string>

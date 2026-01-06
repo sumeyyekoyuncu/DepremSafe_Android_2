@@ -26,441 +26,506 @@
 16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 16-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:10:5-76
 16-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:10:22-74
-17    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-17-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:24:5-68
-17-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:24:22-65
-18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-18-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:26:5-82
-18-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:26:22-79
-19    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-19-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:5-79
-19-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:22-76
-20    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
-20-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:5-88
-20-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:22-85
-21    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
-21-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:5-82
-21-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:22-79
-22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-22-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:26:5-110
-22-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:26:22-107
-23
-24    <permission
-24-->[androidx.core:core:1.12.0] C:\Users\CASPER\.gradle\caches\transforms-3\bcb5971e12f2574cc3dcfa60be456f8d\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
-25        android:name="com.example.depremsafe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-25-->[androidx.core:core:1.12.0] C:\Users\CASPER\.gradle\caches\transforms-3\bcb5971e12f2574cc3dcfa60be456f8d\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
-26        android:protectionLevel="signature" />
-26-->[androidx.core:core:1.12.0] C:\Users\CASPER\.gradle\caches\transforms-3\bcb5971e12f2574cc3dcfa60be456f8d\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
-27
-28    <uses-permission android:name="com.example.depremsafe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-28-->[androidx.core:core:1.12.0] C:\Users\CASPER\.gradle\caches\transforms-3\bcb5971e12f2574cc3dcfa60be456f8d\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
-28-->[androidx.core:core:1.12.0] C:\Users\CASPER\.gradle\caches\transforms-3\bcb5971e12f2574cc3dcfa60be456f8d\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
-29
-30    <application
-30-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:12:5-40:19
-31        android:allowBackup="true"
-31-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:13:9-35
-32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-32-->[androidx.core:core:1.12.0] C:\Users\CASPER\.gradle\caches\transforms-3\bcb5971e12f2574cc3dcfa60be456f8d\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
-33        android:dataExtractionRules="@xml/data_extraction_rules"
-33-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:14:9-65
-34        android:debuggable="true"
-35        android:extractNativeLibs="false"
-36        android:fullBackupContent="@xml/backup_rules"
-36-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:15:9-54
-37        android:icon="@android:drawable/sym_def_app_icon"
-37-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:16:9-58
-38        android:label="@string/app_name"
-38-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:17:9-41
-39        android:networkSecurityConfig="@xml/network_security_config"
-39-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:19:9-69
-40        android:supportsRtl="true"
-40-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:18:9-35
-41        android:testOnly="true"
-42        android:theme="@style/Theme.DepremSafe"
-42-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:20:9-48
-43        android:usesCleartextTraffic="true" >
-43-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:21:9-44
-44        <activity
-44-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:23:9-31:20
-45            android:name="com.example.depremsafe.MainActivity"
-45-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:24:13-41
-46            android:exported="true"
-46-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:25:13-36
-47            android:theme="@style/Theme.DepremSafe" >
-47-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:26:13-52
-48            <intent-filter>
-48-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:27:13-30:29
-49                <action android:name="android.intent.action.MAIN" />
-49-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:28:17-69
-49-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:28:25-66
+17    <!-- MESH NETWORK İÇİN YENİ PERMISSIONS -->
+18    <!-- Bluetooth permissions (Android 12+) -->
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:8:5-79
+19-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:8:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:9:5-81
+20-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:9:22-78
+21    <uses-permission android:name="android.permission.BLUETOOTH" />
+21-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:15:5-68
+21-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:15:22-65
+22    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+22-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:16:5-74
+22-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:16:22-71
+23    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+23-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:17:5-73
+23-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:17:22-70
+24    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+24-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:18:5-78
+24-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:18:22-75
+25    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+25-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:19:5-76
+25-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:19:22-73
+26    <!-- Wi-Fi permissions for Nearby Connections -->
+27    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+27-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:21:5-76
+27-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:21:22-73
+28    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+28-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:22:5-76
+28-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:22:22-73
+29    <uses-permission
+29-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:23:5-24:58
+30        android:name="android.permission.NEARBY_WIFI_DEVICES"
+30-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:23:22-75
+31        android:usesPermissionFlags="neverForLocation" />
+31-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:24:9-55
+32
+33    <!-- Foreground Service permission (Android 9+) -->
+34    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+34-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:27:5-77
+34-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:27:22-74
+35    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+35-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:28:5-86
+35-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:28:22-83
+36
+37    <!-- Background location (isteğe bağlı) -->
+38    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+38-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:31:5-85
+38-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:31:22-82
+39
+40    <uses-feature
+40-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:61:5-63:35
+41        android:name="android.hardware.bluetooth_le"
+41-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:62:9-53
+42        android:required="true" />
+42-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:63:9-32
+43
+44    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+44-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:24:5-68
+44-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:24:22-65
+45    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+45-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:26:5-82
+45-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:26:22-79
+46    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+46-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:5-79
+46-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:22-76
+47    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+47-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:5-88
+47-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:22-85
+48    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+48-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:5-82
+48-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:22-79
+49    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+49-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:26:5-110
+49-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:26:22-107
 50
-51                <category android:name="android.intent.category.LAUNCHER" />
-51-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:29:17-77
-51-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:29:27-74
-52            </intent-filter>
-53        </activity>
-54        <!-- Firebase Messaging Service -->
-55        <service
-55-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:33:9-39:19
-56            android:name="com.example.depremsafe.services.DepremFirebaseMessagingService"
-56-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:34:13-68
-57            android:exported="false" >
-57-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:35:13-37
-58            <intent-filter>
-58-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:36:13-38:29
-59                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-59-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:37:17-78
-59-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:37:25-75
-60            </intent-filter>
-61        </service>
-62        <service
-62-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:24:9-32:19
-63            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
-63-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:25:13-94
-64            android:enabled="true"
-64-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:26:13-35
-65            android:exported="false" >
-65-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:27:13-37
-66            <meta-data
-66-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:29:13-31:104
-67                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
-67-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:30:17-76
-68                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
-68-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:31:17-101
-69        </service>
-70
+51    <permission
+51-->[androidx.core:core:1.12.0] C:\Users\CASPER\.gradle\caches\transforms-3\bcb5971e12f2574cc3dcfa60be456f8d\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+52        android:name="com.example.depremsafe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+52-->[androidx.core:core:1.12.0] C:\Users\CASPER\.gradle\caches\transforms-3\bcb5971e12f2574cc3dcfa60be456f8d\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+53        android:protectionLevel="signature" />
+53-->[androidx.core:core:1.12.0] C:\Users\CASPER\.gradle\caches\transforms-3\bcb5971e12f2574cc3dcfa60be456f8d\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+54
+55    <uses-permission android:name="com.example.depremsafe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+55-->[androidx.core:core:1.12.0] C:\Users\CASPER\.gradle\caches\transforms-3\bcb5971e12f2574cc3dcfa60be456f8d\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+55-->[androidx.core:core:1.12.0] C:\Users\CASPER\.gradle\caches\transforms-3\bcb5971e12f2574cc3dcfa60be456f8d\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+56
+57    <application
+57-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:32:5-60:19
+58        android:allowBackup="true"
+58-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:33:9-35
+59        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+59-->[androidx.core:core:1.12.0] C:\Users\CASPER\.gradle\caches\transforms-3\bcb5971e12f2574cc3dcfa60be456f8d\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+60        android:dataExtractionRules="@xml/data_extraction_rules"
+60-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:34:9-65
+61        android:debuggable="true"
+62        android:extractNativeLibs="false"
+63        android:fullBackupContent="@xml/backup_rules"
+63-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:35:9-54
+64        android:icon="@android:drawable/sym_def_app_icon"
+64-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:36:9-58
+65        android:label="@string/app_name"
+65-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:37:9-41
+66        android:networkSecurityConfig="@xml/network_security_config"
+66-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:39:9-69
+67        android:supportsRtl="true"
+67-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:38:9-35
+68        android:testOnly="true"
+69        android:theme="@style/Theme.DepremSafe"
+69-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:40:9-48
+70        android:usesCleartextTraffic="true" >
+70-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:41:9-44
 71        <activity
-71-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:34:9-41:20
-72            android:name="androidx.credentials.playservices.HiddenActivity"
-72-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:35:13-76
-73            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
-73-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:36:13-87
-74            android:enabled="true"
-74-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:37:13-35
-75            android:exported="false"
-75-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:38:13-37
-76            android:fitsSystemWindows="true"
-76-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:39:13-45
-77            android:theme="@style/Theme.Hidden" >
-77-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:40:13-48
-78        </activity>
-79        <activity
-79-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:23:9-27:75
-80            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-80-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:24:13-93
-81            android:excludeFromRecents="true"
-81-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:25:13-46
-82            android:exported="false"
-82-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:26:13-37
-83            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-83-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:27:13-72
-84        <!--
-85            Service handling Google Sign-In user revocation. For apps that do not integrate with
-86            Google Sign-In, this service will never be started.
-87        -->
-88        <service
-88-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:33:9-37:51
-89            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-89-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:34:13-89
-90            android:exported="true"
-90-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:35:13-36
-91            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-91-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:36:13-107
-92            android:visibleToInstantApps="true" />
-92-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:37:13-48
+71-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:43:9-51:20
+72            android:name="com.example.depremsafe.MainActivity"
+72-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:44:13-41
+73            android:exported="true"
+73-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:45:13-36
+74            android:theme="@style/Theme.DepremSafe" >
+74-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:46:13-52
+75            <intent-filter>
+75-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:47:13-50:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:48:17-69
+76-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:48:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:49:17-77
+78-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:49:27-74
+79            </intent-filter>
+80        </activity>
+81        <!-- Firebase Messaging Service -->
+82        <service
+82-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:53:9-59:19
+83            android:name="com.example.depremsafe.services.DepremFirebaseMessagingService"
+83-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:54:13-68
+84            android:exported="false" >
+84-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:55:13-37
+85            <intent-filter>
+85-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:56:13-58:29
+86                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+86-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:57:17-78
+86-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:57:25-75
+87            </intent-filter>
+88        </service>
+89        <service
+89-->[com.google.android.gms:play-services-nearby:19.0.0] C:\Users\CASPER\.gradle\caches\transforms-3\3c751270285044e2fd6eaae8b80a19c8\transformed\play-services-nearby-19.0.0\AndroidManifest.xml:10:9-13:105
+90            android:name="com.google.android.gms.nearby.exposurenotification.WakeUpService"
+90-->[com.google.android.gms:play-services-nearby:19.0.0] C:\Users\CASPER\.gradle\caches\transforms-3\3c751270285044e2fd6eaae8b80a19c8\transformed\play-services-nearby-19.0.0\AndroidManifest.xml:11:13-92
+91            android:exported="true"
+91-->[com.google.android.gms:play-services-nearby:19.0.0] C:\Users\CASPER\.gradle\caches\transforms-3\3c751270285044e2fd6eaae8b80a19c8\transformed\play-services-nearby-19.0.0\AndroidManifest.xml:12:13-36
+92            android:permission="com.google.android.gms.nearby.exposurenotification.EXPOSURE_CALLBACK" />
+92-->[com.google.android.gms:play-services-nearby:19.0.0] C:\Users\CASPER\.gradle\caches\transforms-3\3c751270285044e2fd6eaae8b80a19c8\transformed\play-services-nearby-19.0.0\AndroidManifest.xml:13:13-102
 93        <service
-93-->[com.google.firebase:firebase-messaging-ktx:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\279951c8f75e7e3c8ff289f49650834c\transformed\firebase-messaging-ktx-23.4.0\AndroidManifest.xml:23:9-29:19
-94            android:name="com.google.firebase.components.ComponentDiscoveryService"
-94-->[com.google.firebase:firebase-messaging-ktx:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\279951c8f75e7e3c8ff289f49650834c\transformed\firebase-messaging-ktx-23.4.0\AndroidManifest.xml:24:13-84
-95            android:directBootAware="true"
-95-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+93-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:24:9-32:19
+94            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+94-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:25:13-94
+95            android:enabled="true"
+95-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:26:13-35
 96            android:exported="false" >
-96-->[com.google.firebase:firebase-messaging-ktx:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\279951c8f75e7e3c8ff289f49650834c\transformed\firebase-messaging-ktx-23.4.0\AndroidManifest.xml:25:13-37
+96-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:27:13-37
 97            <meta-data
-97-->[com.google.firebase:firebase-messaging-ktx:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\279951c8f75e7e3c8ff289f49650834c\transformed\firebase-messaging-ktx-23.4.0\AndroidManifest.xml:26:13-28:85
-98                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingLegacyRegistrar"
-98-->[com.google.firebase:firebase-messaging-ktx:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\279951c8f75e7e3c8ff289f49650834c\transformed\firebase-messaging-ktx-23.4.0\AndroidManifest.xml:27:17-129
-99                android:value="com.google.firebase.components.ComponentRegistrar" />
-99-->[com.google.firebase:firebase-messaging-ktx:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\279951c8f75e7e3c8ff289f49650834c\transformed\firebase-messaging-ktx-23.4.0\AndroidManifest.xml:28:17-82
-100            <meta-data
-100-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:57:13-59:85
-101                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
-101-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:58:17-122
-102                android:value="com.google.firebase.components.ComponentRegistrar" />
-102-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:59:17-82
-103            <meta-data
-103-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:60:13-62:85
-104                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-104-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:61:17-119
-105                android:value="com.google.firebase.components.ComponentRegistrar" />
-105-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:62:17-82
-106            <meta-data
-106-->[com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82bf4dced93ff623d1bf89bc44048012\transformed\firebase-analytics-ktx-21.5.0\AndroidManifest.xml:11:13-13:85
-107                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar"
-107-->[com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82bf4dced93ff623d1bf89bc44048012\transformed\firebase-analytics-ktx-21.5.0\AndroidManifest.xml:12:17-129
-108                android:value="com.google.firebase.components.ComponentRegistrar" />
-108-->[com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82bf4dced93ff623d1bf89bc44048012\transformed\firebase-analytics-ktx-21.5.0\AndroidManifest.xml:13:17-82
-109            <meta-data
-109-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:37:13-39:85
-110                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-110-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:38:17-139
-111                android:value="com.google.firebase.components.ComponentRegistrar" />
-111-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:39:17-82
-112            <meta-data
-112-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\CASPER\.gradle\caches\transforms-3\097f89c62681c6d4046b38747c0cf3db\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
-113                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
-113-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\CASPER\.gradle\caches\transforms-3\097f89c62681c6d4046b38747c0cf3db\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
-114                android:value="com.google.firebase.components.ComponentRegistrar" />
-114-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\CASPER\.gradle\caches\transforms-3\097f89c62681c6d4046b38747c0cf3db\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
-115            <meta-data
-115-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\CASPER\.gradle\caches\transforms-3\097f89c62681c6d4046b38747c0cf3db\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
-116                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-116-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\CASPER\.gradle\caches\transforms-3\097f89c62681c6d4046b38747c0cf3db\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
-117                android:value="com.google.firebase.components.ComponentRegistrar" />
-117-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\CASPER\.gradle\caches\transforms-3\097f89c62681c6d4046b38747c0cf3db\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
-118            <meta-data
-118-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\204b192e63fb1eb26702ed9cfcd788c9\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
-119                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
-119-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\204b192e63fb1eb26702ed9cfcd788c9\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
-120                android:value="com.google.firebase.components.ComponentRegistrar" />
-120-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\204b192e63fb1eb26702ed9cfcd788c9\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
-121            <meta-data
-121-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
-122                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
-122-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
-123                android:value="com.google.firebase.components.ComponentRegistrar" />
-123-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
-124            <meta-data
-124-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\CASPER\.gradle\caches\transforms-3\5f26cd1956ded0b32885b976d159f3a5\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
-125                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-125-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\CASPER\.gradle\caches\transforms-3\5f26cd1956ded0b32885b976d159f3a5\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
-126                android:value="com.google.firebase.components.ComponentRegistrar" />
-126-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\CASPER\.gradle\caches\transforms-3\5f26cd1956ded0b32885b976d159f3a5\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
-127        </service>
-128
-129        <receiver
-129-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:29:9-40:20
-130            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-130-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:30:13-78
-131            android:exported="true"
-131-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:31:13-36
-132            android:permission="com.google.android.c2dm.permission.SEND" >
-132-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:32:13-73
-133            <intent-filter>
-133-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:33:13-35:29
-134                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-134-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:34:17-81
-134-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:34:25-78
-135            </intent-filter>
-136
+97-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:29:13-31:104
+98                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+98-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:30:17-76
+99                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+99-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:31:17-101
+100        </service>
+101
+102        <activity
+102-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:34:9-41:20
+103            android:name="androidx.credentials.playservices.HiddenActivity"
+103-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:35:13-76
+104            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+104-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:36:13-87
+105            android:enabled="true"
+105-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:37:13-35
+106            android:exported="false"
+106-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:38:13-37
+107            android:fitsSystemWindows="true"
+107-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:39:13-45
+108            android:theme="@style/Theme.Hidden" >
+108-->[androidx.credentials:credentials-play-services-auth:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\cc38755177aa736cd225c1481a93e4f9\transformed\credentials-play-services-auth-1.3.0\AndroidManifest.xml:40:13-48
+109        </activity>
+110        <activity
+110-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:23:9-27:75
+111            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+111-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:24:13-93
+112            android:excludeFromRecents="true"
+112-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:25:13-46
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:26:13-37
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:27:13-72
+115        <!--
+116            Service handling Google Sign-In user revocation. For apps that do not integrate with
+117            Google Sign-In, this service will never be started.
+118        -->
+119        <service
+119-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:33:9-37:51
+120            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+120-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:34:13-89
+121            android:exported="true"
+121-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:35:13-36
+122            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+122-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:36:13-107
+123            android:visibleToInstantApps="true" />
+123-->[com.google.android.gms:play-services-auth:21.1.1] C:\Users\CASPER\.gradle\caches\transforms-3\e97938883ad2723062f600c600586c94\transformed\play-services-auth-21.1.1\AndroidManifest.xml:37:13-48
+124        <service
+124-->[com.google.firebase:firebase-messaging-ktx:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\279951c8f75e7e3c8ff289f49650834c\transformed\firebase-messaging-ktx-23.4.0\AndroidManifest.xml:23:9-29:19
+125            android:name="com.google.firebase.components.ComponentDiscoveryService"
+125-->[com.google.firebase:firebase-messaging-ktx:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\279951c8f75e7e3c8ff289f49650834c\transformed\firebase-messaging-ktx-23.4.0\AndroidManifest.xml:24:13-84
+126            android:directBootAware="true"
+126-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+127            android:exported="false" >
+127-->[com.google.firebase:firebase-messaging-ktx:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\279951c8f75e7e3c8ff289f49650834c\transformed\firebase-messaging-ktx-23.4.0\AndroidManifest.xml:25:13-37
+128            <meta-data
+128-->[com.google.firebase:firebase-messaging-ktx:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\279951c8f75e7e3c8ff289f49650834c\transformed\firebase-messaging-ktx-23.4.0\AndroidManifest.xml:26:13-28:85
+129                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingLegacyRegistrar"
+129-->[com.google.firebase:firebase-messaging-ktx:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\279951c8f75e7e3c8ff289f49650834c\transformed\firebase-messaging-ktx-23.4.0\AndroidManifest.xml:27:17-129
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-messaging-ktx:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\279951c8f75e7e3c8ff289f49650834c\transformed\firebase-messaging-ktx-23.4.0\AndroidManifest.xml:28:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:57:13-59:85
+132                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+132-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:58:17-122
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:59:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:60:13-62:85
+135                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+135-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:61:17-119
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:62:17-82
 137            <meta-data
-137-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:37:13-39:40
-138                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
-138-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:38:17-92
-139                android:value="true" />
-139-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:39:17-37
-140        </receiver>
-141        <!--
-142             FirebaseMessagingService performs security checks at runtime,
-143             but set to not exported to explicitly avoid allowing another app to call it.
-144        -->
-145        <service
-145-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:46:9-53:19
-146            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-146-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:47:13-82
-147            android:directBootAware="true"
-147-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:48:13-43
-148            android:exported="false" >
-148-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:49:13-37
-149            <intent-filter android:priority="-500" >
-149-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:36:13-38:29
-150                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-150-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:37:17-78
-150-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:37:25-75
-151            </intent-filter>
-152        </service>
-153
-154        <activity
-154-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\0b1cd1748a957d43f6c0aced0ccc546c\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
-155            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-155-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\0b1cd1748a957d43f6c0aced0ccc546c\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:19-85
-156            android:exported="false"
-156-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\0b1cd1748a957d43f6c0aced0ccc546c\transformed\play-services-base-18.3.0\AndroidManifest.xml:22:19-43
-157            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-157-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\0b1cd1748a957d43f6c0aced0ccc546c\transformed\play-services-base-18.3.0\AndroidManifest.xml:21:19-78
-158
-159        <property
-159-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:30:9-32:61
-160            android:name="android.adservices.AD_SERVICES_CONFIG"
-160-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:31:13-65
-161            android:resource="@xml/ga_ad_services_config" />
-161-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:32:13-58
-162
-163        <provider
-163-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
-164            android:name="com.google.firebase.provider.FirebaseInitProvider"
-164-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
-165            android:authorities="com.example.depremsafe.firebaseinitprovider"
-165-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
-166            android:directBootAware="true"
-166-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
-167            android:exported="false"
-167-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
-168            android:initOrder="100" />
-168-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
-169
-170        <activity
-170-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\CASPER\.gradle\caches\transforms-3\535bc38a259e67d1dcf14b89b8b3243c\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:23:9-25:39
-171            android:name="androidx.activity.ComponentActivity"
-171-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\CASPER\.gradle\caches\transforms-3\535bc38a259e67d1dcf14b89b8b3243c\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:24:13-63
-172            android:exported="true" />
-172-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\CASPER\.gradle\caches\transforms-3\535bc38a259e67d1dcf14b89b8b3243c\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:25:13-36
-173        <activity
-173-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\CASPER\.gradle\caches\transforms-3\a9b0fbab33704f9671a96718b9ec3849\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
-174            android:name="androidx.compose.ui.tooling.PreviewActivity"
-174-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\CASPER\.gradle\caches\transforms-3\a9b0fbab33704f9671a96718b9ec3849\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
-175            android:exported="true" />
-175-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\CASPER\.gradle\caches\transforms-3\a9b0fbab33704f9671a96718b9ec3849\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
-176
-177        <receiver
-177-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:29:9-33:20
-178            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-178-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:30:13-85
-179            android:enabled="true"
-179-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:31:13-35
-180            android:exported="false" >
-180-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:32:13-37
-181        </receiver>
-182
-183        <service
-183-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:35:9-38:40
-184            android:name="com.google.android.gms.measurement.AppMeasurementService"
-184-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:36:13-84
-185            android:enabled="true"
-185-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:37:13-35
-186            android:exported="false" />
-186-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:38:13-37
-187        <service
-187-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:39:9-43:72
-188            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-188-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:40:13-87
-189            android:enabled="true"
-189-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:41:13-35
-190            android:exported="false"
-190-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:42:13-37
-191            android:permission="android.permission.BIND_JOB_SERVICE" />
-191-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:43:13-69
-192
-193        <provider
-193-->[androidx.emoji2:emoji2:1.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\71ad0d2eeb524baf94579e445c632554\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
-194            android:name="androidx.startup.InitializationProvider"
-194-->[androidx.emoji2:emoji2:1.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\71ad0d2eeb524baf94579e445c632554\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
-195            android:authorities="com.example.depremsafe.androidx-startup"
-195-->[androidx.emoji2:emoji2:1.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\71ad0d2eeb524baf94579e445c632554\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
-196            android:exported="false" >
-196-->[androidx.emoji2:emoji2:1.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\71ad0d2eeb524baf94579e445c632554\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
-197            <meta-data
-197-->[androidx.emoji2:emoji2:1.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\71ad0d2eeb524baf94579e445c632554\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
-198                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-198-->[androidx.emoji2:emoji2:1.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\71ad0d2eeb524baf94579e445c632554\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
-199                android:value="androidx.startup" />
-199-->[androidx.emoji2:emoji2:1.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\71ad0d2eeb524baf94579e445c632554\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
-200            <meta-data
-200-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\CASPER\.gradle\caches\transforms-3\a588f669748de7ab0fb0be528b6a0c9f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-201                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-201-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\CASPER\.gradle\caches\transforms-3\a588f669748de7ab0fb0be528b6a0c9f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-202                android:value="androidx.startup" />
-202-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\CASPER\.gradle\caches\transforms-3\a588f669748de7ab0fb0be528b6a0c9f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-203            <meta-data
-203-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-204                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-204-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-205                android:value="androidx.startup" />
-205-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-206        </provider>
+137-->[com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82bf4dced93ff623d1bf89bc44048012\transformed\firebase-analytics-ktx-21.5.0\AndroidManifest.xml:11:13-13:85
+138                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar"
+138-->[com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82bf4dced93ff623d1bf89bc44048012\transformed\firebase-analytics-ktx-21.5.0\AndroidManifest.xml:12:17-129
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82bf4dced93ff623d1bf89bc44048012\transformed\firebase-analytics-ktx-21.5.0\AndroidManifest.xml:13:17-82
+140            <meta-data
+140-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:37:13-39:85
+141                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+141-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:38:17-139
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:39:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\CASPER\.gradle\caches\transforms-3\097f89c62681c6d4046b38747c0cf3db\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+144                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+144-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\CASPER\.gradle\caches\transforms-3\097f89c62681c6d4046b38747c0cf3db\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\CASPER\.gradle\caches\transforms-3\097f89c62681c6d4046b38747c0cf3db\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\CASPER\.gradle\caches\transforms-3\097f89c62681c6d4046b38747c0cf3db\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+147                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+147-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\CASPER\.gradle\caches\transforms-3\097f89c62681c6d4046b38747c0cf3db\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\CASPER\.gradle\caches\transforms-3\097f89c62681c6d4046b38747c0cf3db\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+149            <meta-data
+149-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\204b192e63fb1eb26702ed9cfcd788c9\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+150                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+150-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\204b192e63fb1eb26702ed9cfcd788c9\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\204b192e63fb1eb26702ed9cfcd788c9\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+152            <meta-data
+152-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+153                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+153-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+155            <meta-data
+155-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\CASPER\.gradle\caches\transforms-3\5f26cd1956ded0b32885b976d159f3a5\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+156                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+156-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\CASPER\.gradle\caches\transforms-3\5f26cd1956ded0b32885b976d159f3a5\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\CASPER\.gradle\caches\transforms-3\5f26cd1956ded0b32885b976d159f3a5\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+158        </service>
+159
+160        <receiver
+160-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:29:9-40:20
+161            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+161-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:30:13-78
+162            android:exported="true"
+162-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:31:13-36
+163            android:permission="com.google.android.c2dm.permission.SEND" >
+163-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:32:13-73
+164            <intent-filter>
+164-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:33:13-35:29
+165                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+165-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:34:17-81
+165-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:34:25-78
+166            </intent-filter>
+167
+168            <meta-data
+168-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:37:13-39:40
+169                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+169-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:38:17-92
+170                android:value="true" />
+170-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:39:17-37
+171        </receiver>
+172        <!--
+173             FirebaseMessagingService performs security checks at runtime,
+174             but set to not exported to explicitly avoid allowing another app to call it.
+175        -->
+176        <service
+176-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:46:9-53:19
+177            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+177-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:47:13-82
+178            android:directBootAware="true"
+178-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:48:13-43
+179            android:exported="false" >
+179-->[com.google.firebase:firebase-messaging:23.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\5f2c9fd0d19250545469803b4c47d8e8\transformed\firebase-messaging-23.4.0\AndroidManifest.xml:49:13-37
+180            <intent-filter android:priority="-500" >
+180-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:56:13-58:29
+181                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+181-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:57:17-78
+181-->C:\Users\CASPER\Downloads\DepremSafe\DepremSafe\app\src\main\AndroidManifest.xml:57:25-75
+182            </intent-filter>
+183        </service>
+184
+185        <activity
+185-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\0b1cd1748a957d43f6c0aced0ccc546c\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+186            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+186-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\0b1cd1748a957d43f6c0aced0ccc546c\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+187            android:exported="false"
+187-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\0b1cd1748a957d43f6c0aced0ccc546c\transformed\play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+188            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+188-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\0b1cd1748a957d43f6c0aced0ccc546c\transformed\play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+189
+190        <property
+190-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:30:9-32:61
+191            android:name="android.adservices.AD_SERVICES_CONFIG"
+191-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:31:13-65
+192            android:resource="@xml/ga_ad_services_config" />
+192-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\82a442b291fbe77bd3ef287187c79c7d\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:32:13-58
+193
+194        <provider
+194-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+195            android:name="com.google.firebase.provider.FirebaseInitProvider"
+195-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+196            android:authorities="com.example.depremsafe.firebaseinitprovider"
+196-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+197            android:directBootAware="true"
+197-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+198            android:exported="false"
+198-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+199            android:initOrder="100" />
+199-->[com.google.firebase:firebase-common:20.4.2] C:\Users\CASPER\.gradle\caches\transforms-3\bbb51c99478ec511e740b905c86a42e8\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+200
+201        <activity
+201-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\CASPER\.gradle\caches\transforms-3\535bc38a259e67d1dcf14b89b8b3243c\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:23:9-25:39
+202            android:name="androidx.activity.ComponentActivity"
+202-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\CASPER\.gradle\caches\transforms-3\535bc38a259e67d1dcf14b89b8b3243c\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:24:13-63
+203            android:exported="true" />
+203-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\CASPER\.gradle\caches\transforms-3\535bc38a259e67d1dcf14b89b8b3243c\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:25:13-36
+204        <activity
+204-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\CASPER\.gradle\caches\transforms-3\a9b0fbab33704f9671a96718b9ec3849\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+205            android:name="androidx.compose.ui.tooling.PreviewActivity"
+205-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\CASPER\.gradle\caches\transforms-3\a9b0fbab33704f9671a96718b9ec3849\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+206            android:exported="true" />
+206-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\CASPER\.gradle\caches\transforms-3\a9b0fbab33704f9671a96718b9ec3849\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
 207
-208        <uses-library
-208-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\CASPER\.gradle\caches\transforms-3\abe5380ed4f1d0cf57ecdf2d000ab837\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
-209            android:name="android.ext.adservices"
-209-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\CASPER\.gradle\caches\transforms-3\abe5380ed4f1d0cf57ecdf2d000ab837\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
-210            android:required="false" />
-210-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\CASPER\.gradle\caches\transforms-3\abe5380ed4f1d0cf57ecdf2d000ab837\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
-211
-212        <meta-data
-212-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\29a9aac2d3c71011d727a9e39e5554c5\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
-213            android:name="com.google.android.gms.version"
-213-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\29a9aac2d3c71011d727a9e39e5554c5\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
-214            android:value="@integer/google_play_services_version" />
-214-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\29a9aac2d3c71011d727a9e39e5554c5\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
-215
-216        <receiver
-216-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-217            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-217-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-218            android:directBootAware="false"
-218-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-219            android:enabled="true"
-219-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-220            android:exported="true"
-220-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-221            android:permission="android.permission.DUMP" >
-221-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-222            <intent-filter>
-222-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-223                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-223-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-223-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-224            </intent-filter>
-225            <intent-filter>
-225-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-226                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-226-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-226-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-227            </intent-filter>
-228            <intent-filter>
-228-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-229                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-229-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-229-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-230            </intent-filter>
-231            <intent-filter>
-231-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-232                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-232-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-232-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-233            </intent-filter>
-234        </receiver>
-235
-236        <service
-236-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\9865707fd84f3ddeabb655cf72e0e727\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
-237            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-237-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\9865707fd84f3ddeabb655cf72e0e727\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
-238            android:exported="false" >
-238-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\9865707fd84f3ddeabb655cf72e0e727\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
-239            <meta-data
-239-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\9865707fd84f3ddeabb655cf72e0e727\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
-240                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-240-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\9865707fd84f3ddeabb655cf72e0e727\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
-241                android:value="cct" />
-241-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\9865707fd84f3ddeabb655cf72e0e727\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
-242        </service>
-243        <service
-243-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\dccb1bc4eff6be598d1e30431bedb479\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
-244            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-244-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\dccb1bc4eff6be598d1e30431bedb479\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
-245            android:exported="false"
-245-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\dccb1bc4eff6be598d1e30431bedb479\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
-246            android:permission="android.permission.BIND_JOB_SERVICE" >
-246-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\dccb1bc4eff6be598d1e30431bedb479\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
-247        </service>
-248
-249        <receiver
-249-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\dccb1bc4eff6be598d1e30431bedb479\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
-250            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-250-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\dccb1bc4eff6be598d1e30431bedb479\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
-251            android:exported="false" />
-251-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\dccb1bc4eff6be598d1e30431bedb479\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
-252    </application>
-253
-254</manifest>
+208        <receiver
+208-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:29:9-33:20
+209            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+209-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:30:13-85
+210            android:enabled="true"
+210-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:31:13-35
+211            android:exported="false" >
+211-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:32:13-37
+212        </receiver>
+213
+214        <service
+214-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:35:9-38:40
+215            android:name="com.google.android.gms.measurement.AppMeasurementService"
+215-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:36:13-84
+216            android:enabled="true"
+216-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:37:13-35
+217            android:exported="false" />
+217-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:38:13-37
+218        <service
+218-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:39:9-43:72
+219            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+219-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:40:13-87
+220            android:enabled="true"
+220-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:41:13-35
+221            android:exported="false"
+221-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:42:13-37
+222            android:permission="android.permission.BIND_JOB_SERVICE" />
+222-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\CASPER\.gradle\caches\transforms-3\9f0917b4d5fbad3870c74bc71a9ccfb9\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:43:13-69
+223
+224        <provider
+224-->[androidx.emoji2:emoji2:1.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\71ad0d2eeb524baf94579e445c632554\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+225            android:name="androidx.startup.InitializationProvider"
+225-->[androidx.emoji2:emoji2:1.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\71ad0d2eeb524baf94579e445c632554\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+226            android:authorities="com.example.depremsafe.androidx-startup"
+226-->[androidx.emoji2:emoji2:1.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\71ad0d2eeb524baf94579e445c632554\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+227            android:exported="false" >
+227-->[androidx.emoji2:emoji2:1.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\71ad0d2eeb524baf94579e445c632554\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+228            <meta-data
+228-->[androidx.emoji2:emoji2:1.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\71ad0d2eeb524baf94579e445c632554\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+229                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+229-->[androidx.emoji2:emoji2:1.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\71ad0d2eeb524baf94579e445c632554\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+230                android:value="androidx.startup" />
+230-->[androidx.emoji2:emoji2:1.4.0] C:\Users\CASPER\.gradle\caches\transforms-3\71ad0d2eeb524baf94579e445c632554\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+231            <meta-data
+231-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\CASPER\.gradle\caches\transforms-3\a588f669748de7ab0fb0be528b6a0c9f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+232                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+232-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\CASPER\.gradle\caches\transforms-3\a588f669748de7ab0fb0be528b6a0c9f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+233                android:value="androidx.startup" />
+233-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\CASPER\.gradle\caches\transforms-3\a588f669748de7ab0fb0be528b6a0c9f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+234            <meta-data
+234-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+235                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+235-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+236                android:value="androidx.startup" />
+236-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+237        </provider>
+238
+239        <uses-library
+239-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\CASPER\.gradle\caches\transforms-3\abe5380ed4f1d0cf57ecdf2d000ab837\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+240            android:name="android.ext.adservices"
+240-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\CASPER\.gradle\caches\transforms-3\abe5380ed4f1d0cf57ecdf2d000ab837\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+241            android:required="false" />
+241-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\CASPER\.gradle\caches\transforms-3\abe5380ed4f1d0cf57ecdf2d000ab837\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+242
+243        <meta-data
+243-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\29a9aac2d3c71011d727a9e39e5554c5\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+244            android:name="com.google.android.gms.version"
+244-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\29a9aac2d3c71011d727a9e39e5554c5\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+245            android:value="@integer/google_play_services_version" />
+245-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\29a9aac2d3c71011d727a9e39e5554c5\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+246
+247        <receiver
+247-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+248            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+248-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+249            android:directBootAware="false"
+249-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+250            android:enabled="true"
+250-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+251            android:exported="true"
+251-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+252            android:permission="android.permission.DUMP" >
+252-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+253            <intent-filter>
+253-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+254                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+254-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+254-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+255            </intent-filter>
+256            <intent-filter>
+256-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+257                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+257-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+257-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+258            </intent-filter>
+259            <intent-filter>
+259-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+260                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+260-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+260-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+261            </intent-filter>
+262            <intent-filter>
+262-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+263                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+263-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+263-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\CASPER\.gradle\caches\transforms-3\b6e01612e88a86244eac0a541656e00c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+264            </intent-filter>
+265        </receiver>
+266
+267        <service
+267-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\9865707fd84f3ddeabb655cf72e0e727\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+268            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+268-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\9865707fd84f3ddeabb655cf72e0e727\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+269            android:exported="false" >
+269-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\9865707fd84f3ddeabb655cf72e0e727\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+270            <meta-data
+270-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\9865707fd84f3ddeabb655cf72e0e727\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+271                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+271-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\9865707fd84f3ddeabb655cf72e0e727\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+272                android:value="cct" />
+272-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\9865707fd84f3ddeabb655cf72e0e727\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+273        </service>
+274        <service
+274-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\dccb1bc4eff6be598d1e30431bedb479\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+275            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+275-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\dccb1bc4eff6be598d1e30431bedb479\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+276            android:exported="false"
+276-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\dccb1bc4eff6be598d1e30431bedb479\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+277            android:permission="android.permission.BIND_JOB_SERVICE" >
+277-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\dccb1bc4eff6be598d1e30431bedb479\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+278        </service>
+279
+280        <receiver
+280-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\dccb1bc4eff6be598d1e30431bedb479\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+281            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+281-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\dccb1bc4eff6be598d1e30431bedb479\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+282            android:exported="false" />
+282-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\CASPER\.gradle\caches\transforms-3\dccb1bc4eff6be598d1e30431bedb479\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+283    </application>
+284
+285</manifest>

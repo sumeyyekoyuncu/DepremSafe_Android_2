@@ -73,6 +73,7 @@
     <string msgid="6827826412747255547" name="in_progress">"בתהליך"</string>
     <string msgid="7933458017204019916" name="indeterminate">"מסומנת חלקית"</string>
     <string msgid="542007171693138492" name="navigation_menu">"תפריט הניווט"</string>
+    <string name="nearby_device_type_tablet">טאבלט</string>
     <string msgid="6610465462668679431" name="not_selected">"לא נבחר"</string>
     <string msgid="875452955155264703" name="off">"כבוי"</string>
     <string msgid="8655164131929253426" name="on">"פועל"</string>
