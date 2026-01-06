@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "367485352063",
+    "project_id": "depremsafe-9f4ce",
+    "storage_bucket": "depremsafe-9f4ce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367485352063:android:4d5edac2e3b2b93ae5e74a",
+        "android_client_info": {
+          "package_name": "com.example.depremsafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367485352063-33pbhnolq0jkgo1qqkj1fia4qpavfoi0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC23zAKan2T_YmrvuZ6FgtIiC4OGuwILAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367485352063-33pbhnolq0jkgo1qqkj1fia4qpavfoi0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367485352063:android:33dbe58f9844376ce5e74a",
+        "android_client_info": {
+          "package_name": "sumeyye.koyuncu.depremsafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367485352063-33pbhnolq0jkgo1qqkj1fia4qpavfoi0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC23zAKan2T_YmrvuZ6FgtIiC4OGuwILAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367485352063-33pbhnolq0jkgo1qqkj1fia4qpavfoi0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
