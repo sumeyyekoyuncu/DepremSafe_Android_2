@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -61,6 +62,10 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.7.5")
     // Google Play Services Location
     implementation("com.google.android.gms:play-services-location:21.1.0")
+    // Firebase BOM
+    implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
+    implementation("com.google.firebase:firebase-messaging-ktx")
+    implementation("com.google.firebase:firebase-analytics-ktx")
     
     // Retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")

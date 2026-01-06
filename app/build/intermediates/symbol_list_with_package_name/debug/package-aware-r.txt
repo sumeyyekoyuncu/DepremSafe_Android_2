@@ -247,6 +247,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+raw firebase_common_keep
 string android_credentials_TYPE_PASSWORD_CREDENTIAL
 string androidx_credentials_TYPE_PUBLIC_KEY_CREDENTIAL
 string androidx_startup
@@ -316,9 +317,16 @@ string date_range_picker_start_headline
 string date_range_picker_title
 string default_error_message
 string default_popup_window_title
+string default_web_client_id
 string dialog
 string dropdown_menu
 string expanded
+string fcm_fallback_notification_channel_label
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string in_progress
 string indeterminate
 string m3c_bottom_sheet_pane_title
@@ -326,6 +334,7 @@ string navigation_menu
 string not_selected
 string off
 string on
+string project_id
 string range_end
 string range_start
 string search_bar_search
@@ -382,4 +391,5 @@ styleable Navigator android_label android_id route
 styleable SignInButton buttonSize colorScheme scopeUris
 xml backup_rules
 xml data_extraction_rules
+xml ga_ad_services_config
 xml network_security_config

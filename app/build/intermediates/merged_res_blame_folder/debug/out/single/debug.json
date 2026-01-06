@@ -1,18 +1,18 @@
 [
     {
-        "merged": "com.example.depremsafe.app-merged_res-59:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.depremsafe.app-main-61:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.example.depremsafe.app-merged_res-65:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.depremsafe.app-main-67:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.depremsafe.app-merged_res-59:/xml_network_security_config.xml.flat",
-        "source": "com.example.depremsafe.app-main-61:/xml/network_security_config.xml"
+        "merged": "com.example.depremsafe.app-merged_res-65:/xml_network_security_config.xml.flat",
+        "source": "com.example.depremsafe.app-main-67:/xml/network_security_config.xml"
     },
     {
-        "merged": "com.example.depremsafe.app-merged_res-59:/xml_backup_rules.xml.flat",
-        "source": "com.example.depremsafe.app-main-61:/xml/backup_rules.xml"
+        "merged": "com.example.depremsafe.app-merged_res-65:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.depremsafe.app-main-67:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.depremsafe.app-merged_res-59:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.depremsafe.app-main-61:/xml/data_extraction_rules.xml"
+        "merged": "com.example.depremsafe.app-merged_res-65:/xml_backup_rules.xml.flat",
+        "source": "com.example.depremsafe.app-main-67:/xml/backup_rules.xml"
     }
 ]

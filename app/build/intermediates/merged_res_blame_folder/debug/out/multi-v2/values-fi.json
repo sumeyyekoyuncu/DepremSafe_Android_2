@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.depremsafe.app-mergeDebugResources-57:/values-fi/values-fi.xml",
+            "outputFile": "com.example.depremsafe.app-mergeDebugResources-63:/values-fi/values-fi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\CASPER\\.gradle\\caches\\transforms-3\\eb377f2e2262ea87e1fc3df6e7802de8\\transformed\\play-services-base-18.3.0\\res\\values-fi\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "193,300,449,576,678,817,939,1051,1154,1291,1393,1538,1660,1804,1939,2001,2067",
-                        "endColumns": "106,148,126,101,138,121,111,102,136,101,144,121,143,134,61,65,78",
-                        "endOffsets": "299,448,575,677,816,938,1050,1153,1290,1392,1537,1659,1803,1938,2000,2066,2145"
-                    },
-                    "to": {
-                        "startLines": "18,19,20,21,22,23,24,25,27,28,29,30,31,32,33,34,35",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1763,1874,2027,2158,2264,2407,2533,2649,2906,3047,3153,3302,3428,3576,3715,3781,3851",
-                        "endColumns": "110,152,130,105,142,125,115,106,140,105,148,125,147,138,65,69,82",
-                        "endOffsets": "1869,2022,2153,2259,2402,2528,2644,2751,3042,3148,3297,3423,3571,3710,3776,3846,3929"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\CASPER\\.gradle\\caches\\transforms-3\\a42b12ad0a51f8e308439dbb8e147289\\transformed\\material3-1.1.2\\res\\values-fi\\values-fi.xml",
+                    "source": "C:\\Users\\CASPER\\.gradle\\caches\\transforms-3\\55de6762b9f6d7edeb9186a343f17ca9\\transformed\\material3-1.1.2\\res\\values-fi\\values-fi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,24 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\CASPER\\.gradle\\caches\\transforms-3\\2ccd268e0ca2e1cd10ec650ac8067a3e\\transformed\\core-1.12.0\\res\\values-fi\\values-fi.xml",
+                    "source": "C:\\Users\\CASPER\\.gradle\\caches\\transforms-3\\85308e0b7a6e6add749f215e4ddcdf48\\transformed\\ui-release\\res\\values-fi\\values-fi.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,151,253,351,456,561,673,789",
-                        "endColumns": "95,101,97,104,104,111,115,100",
-                        "endOffsets": "146,248,346,451,556,668,784,885"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,199,284,383,484,573,650,743,834,916,982,1050,1131,1213,1285,1362,1434",
+                        "endColumns": "93,84,98,100,88,76,92,90,81,65,67,80,81,71,76,71,121",
+                        "endOffsets": "194,279,378,479,568,645,738,829,911,977,1045,1126,1208,1280,1357,1429,1551"
                     },
                     "to": {
-                        "startLines": "8,9,10,11,12,13,14,83",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "770,866,968,1066,1171,1276,1388,8805",
-                        "endColumns": "95,101,97,104,104,111,115,100",
-                        "endOffsets": "861,963,1061,1166,1271,1383,1499,8901"
+                        "startLines": "15,16,67,68,70,72,73,74,75,76,77,78,79,81,85,86,87",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1504,1598,7484,7583,7763,7931,8008,8101,8192,8274,8340,8408,8489,8651,9002,9079,9151",
+                        "endColumns": "93,84,98,100,88,76,92,90,81,65,67,80,81,71,76,71,121",
+                        "endOffsets": "1593,1678,7578,7679,7847,8003,8096,8187,8269,8335,8403,8484,8566,8718,9074,9146,9268"
                     }
                 },
                 {
-                    "source": "C:\\Users\\CASPER\\.gradle\\caches\\transforms-3\\ec50f3d6f4b072ee564757dbbf251af8\\transformed\\credentials-1.3.0\\res\\values-fi\\values-fi.xml",
+                    "source": "C:\\Users\\CASPER\\.gradle\\caches\\transforms-3\\69bb72b54bc9f1b2bc2b385780b0fe02\\transformed\\credentials-1.3.0\\res\\values-fi\\values-fi.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -72,7 +55,41 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\CASPER\\.gradle\\caches\\transforms-3\\da83dfeae7627273393aa166490b536b\\transformed\\play-services-basement-18.3.0\\res\\values-fi\\values.xml",
+                    "source": "C:\\Users\\CASPER\\.gradle\\caches\\transforms-3\\bcb5971e12f2574cc3dcfa60be456f8d\\transformed\\core-1.12.0\\res\\values-fi\\values-fi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,351,456,561,673,789",
+                        "endColumns": "95,101,97,104,104,111,115,100",
+                        "endOffsets": "146,248,346,451,556,668,784,885"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11,12,13,14,83",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "770,866,968,1066,1171,1276,1388,8805",
+                        "endColumns": "95,101,97,104,104,111,115,100",
+                        "endOffsets": "861,963,1061,1166,1271,1383,1499,8901"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\CASPER\\.gradle\\caches\\transforms-3\\0b1cd1748a957d43f6c0aced0ccc546c\\transformed\\play-services-base-18.3.0\\res\\values-fi\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,300,449,576,678,817,939,1051,1154,1291,1393,1538,1660,1804,1939,2001,2067",
+                        "endColumns": "106,148,126,101,138,121,111,102,136,101,144,121,143,134,61,65,78",
+                        "endOffsets": "299,448,575,677,816,938,1050,1153,1290,1392,1537,1659,1803,1938,2000,2066,2145"
+                    },
+                    "to": {
+                        "startLines": "18,19,20,21,22,23,24,25,27,28,29,30,31,32,33,34,35",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1763,1874,2027,2158,2264,2407,2533,2649,2906,3047,3153,3302,3428,3576,3715,3781,3851",
+                        "endColumns": "110,152,130,105,142,125,115,106,140,105,148,125,147,138,65,69,82",
+                        "endOffsets": "1869,2022,2153,2259,2402,2528,2644,2751,3042,3148,3297,3423,3571,3710,3776,3846,3929"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\CASPER\\.gradle\\caches\\transforms-3\\29a9aac2d3c71011d727a9e39e5554c5\\transformed\\play-services-basement-18.3.0\\res\\values-fi\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -86,23 +103,6 @@
                         "startOffsets": "2756",
                         "endColumns": "149",
                         "endOffsets": "2901"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\CASPER\\.gradle\\caches\\transforms-3\\d309ccf62c6e6afb4fd21dd867c4c64e\\transformed\\ui-release\\res\\values-fi\\values-fi.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,199,284,383,484,573,650,743,834,916,982,1050,1131,1213,1285,1362,1434",
-                        "endColumns": "93,84,98,100,88,76,92,90,81,65,67,80,81,71,76,71,121",
-                        "endOffsets": "194,279,378,479,568,645,738,829,911,977,1045,1126,1208,1280,1357,1429,1551"
-                    },
-                    "to": {
-                        "startLines": "15,16,67,68,70,72,73,74,75,76,77,78,79,81,85,86,87",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1504,1598,7484,7583,7763,7931,8008,8101,8192,8274,8340,8408,8489,8651,9002,9079,9151",
-                        "endColumns": "93,84,98,100,88,76,92,90,81,65,67,80,81,71,76,71,121",
-                        "endOffsets": "1593,1678,7578,7679,7847,8003,8096,8187,8269,8335,8403,8484,8566,8718,9074,9146,9268"
                     }
                 }
             ]

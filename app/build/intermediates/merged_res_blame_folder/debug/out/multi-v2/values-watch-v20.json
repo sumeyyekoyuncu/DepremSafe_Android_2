@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.depremsafe.app-mergeDebugResources-57:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.example.depremsafe.app-mergeDebugResources-63:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\CASPER\\.gradle\\caches\\transforms-3\\2ecf147c9f42ca3e2676b1d404c442e5\\transformed\\play-services-auth-21.1.1\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\CASPER\\.gradle\\caches\\transforms-3\\e97938883ad2723062f600c600586c94\\transformed\\play-services-auth-21.1.1\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

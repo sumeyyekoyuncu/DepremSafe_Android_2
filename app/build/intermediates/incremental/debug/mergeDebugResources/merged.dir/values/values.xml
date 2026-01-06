@@ -182,9 +182,16 @@
     <string name="date_range_picker_title">Select dates</string>
     <string name="default_error_message">"Invalid input"</string>
     <string name="default_popup_window_title" ns2:ignore="ExtraTranslation">"Pop-Up Window"</string>
+    <string name="default_web_client_id" translatable="false">367485352063-33pbhnolq0jkgo1qqkj1fia4qpavfoi0.apps.googleusercontent.com</string>
     <string name="dialog">"Dialog"</string>
     <string name="dropdown_menu">"Dropdown menu"</string>
     <string name="expanded">Expanded</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="gcm_defaultSenderId" translatable="false">367485352063</string>
+    <string name="google_api_key" translatable="false">AIzaSyC23zAKan2T_YmrvuZ6FgtIiC4OGuwILAo</string>
+    <string name="google_app_id" translatable="false">1:367485352063:android:4d5edac2e3b2b93ae5e74a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC23zAKan2T_YmrvuZ6FgtIiC4OGuwILAo</string>
+    <string name="google_storage_bucket" translatable="false">depremsafe-9f4ce.firebasestorage.app</string>
     <string name="in_progress">In progress</string>
     <string name="indeterminate">Partially checked</string>
     <string name="m3c_bottom_sheet_pane_title">Bottom Sheet</string>
@@ -192,6 +199,7 @@
     <string name="not_selected">Not selected</string>
     <string name="off">Off</string>
     <string name="on">On</string>
+    <string name="project_id" translatable="false">depremsafe-9f4ce</string>
     <string name="range_end">"Range end"</string>
     <string name="range_start">"Range start"</string>
     <string name="search_bar_search">Search</string>
